@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libertinus Sans", sans-serif;
+}
+
+.banner {
+    height: 605px;
+    width: 100%;
+    background: linear-gradient(#31A8DD, #000);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #31A8DD;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 20px;
+    color: #fff;
+    margin: 25px 0;
+    max-width: 500px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+button {
+    height: 50px;
+    width: 300px;
+    color: #31A8DD;
+    background: transparent;
+    border: 1px solid #31A8DD;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background 0.3s ease,
+        color 0.3s ease,
+        border-color 0.3s ease,
+        transform 0.3s ease;
+}
+
+button:hover {
+    color: #fff;
+    background: linear-gradient(to right, #31A8DD, #000);
+    border-color: #fff;
+}
+
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('../assets/images/banner.png');
+    height: 605px;
+    width: 90%;
+    border-bottom: #31A8DD solid 3px;
+}
+
+
+
+/*! Parte 2 */
+
+main {
+    width: 90%;
+    display: block;
+    min-height: 360px;
+    width: 100%;
+    background-color: #000;
+    padding: 50px;
+}
+
+#course-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #31A8DD;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#course-content p {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+    width: 705px;
+}
+
+.modules-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+
+.module {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    min-width: 535px;
+    border: #33A8DB solid 1px;
+    border-radius: 50px;
+    color: #fff;
+    gap: 5px;
+}
+
+.module span {
+    color: #31A8DD;
+}
+
+/* * Parte 3 */
+#transform-world {
+    display: flex;
+    align-items: center;
+    background-image: url('../assets/images/woman-code.png');
+    min-width: 100%;
+    min-height: 250px;
+    background-position: center;
+    background-size: cover;
+    margin: 45px 0;
+    border: #33A8DB solid 2px ;
+}
+
+#transform-world p {
+    text-transform: lowercase;
+    max-width: 250px;
+    margin-left: 15%;
+    font-size: 38px;
+    font-weight: bold;
+text-align: left;
+}
+
+/* * Parte 4 */
+
+#professional-challenges{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: #31A8DD solid 1px;
+}
+
+#professional-challenges p{
+text-align: center;
+font-weight: lighter;
+font-size: 19px;
+}
+
+footer{
+    background: linear-gradient(#000);
+    display: grid;
+   align-items: center;
+   justify-content: center;
+}
+
+footer p{
+    font-weight: 300;
+    font-size: 19px;
+}
+
+footer a{
+    color:#31A8DD;
+    text-decoration: none;
+}
